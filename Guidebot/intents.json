@@ -1,0 +1,103 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Guidebot","I'm Guidebot","I'm Guidebot your virtual assistant"]
+  },
+  {"tag": "status",
+    "patterns": ["how are you", "are you okay"],
+    "responses": ["I'm happy to be here"]
+  },
+  {"tag": "options",
+    "patterns": ["how can you help me?", "what are your options"],
+    "responses": ["I'm a bot which can help you to get information about \n our sports complex"]
+
+  },
+  {"tag": "facilities",
+    "patterns": ["what are your complex facilities", "what facilities do your complex have"],
+    "responses": ["Our complex is one of the best known sports centers \n which provide high quality sport classes for different age \n ranges with professional tutors our aim is to have \n healthier and happier society"]
+  },
+  {"tag": "workingHours",
+    "patterns": ["when are you open", "what is your working hours", "when is your complex's working hours"],
+    "responses": ["We provide services from 7:00 A.M until 8.00 P.M \n every day"]
+  },
+  {"tag": "listOfMembership",
+    "patterns": ["how can I join","how is your membership conditions","how is membership in your complex"],
+    "responses": ["We recommend 3 memberships including:\n Gold membership \n Silver membership \n Bronze membership\n For extra information about each membership type the name of category that you are interested in"]
+  },
+  {"tag": "goldMembership",
+    "patterns": ["gold membership"],
+    "responses": ["You can use pools,parking and paths and trails(for walking) freely \n You will have 40% discount on extra sport classes and 30% discount on SPA services \n You will get a Diet plan from our nutritionists monthly  \n Total cost for Gold membership is: 1000$ annually"]
+  },
+  {"tag": "silverMembership",
+    "patterns": ["silver membership"],
+    "responses":["You can use parking and paths and trails(for walking) freely \n You will have 20% discount on extra sport classes and 10% discount on Cafe \n You will get some health advices from our nutritionists monthly \n Total cost for Silver membership is: 600$ annually"]
+  },
+  {"tag": "BronzeMembership",
+    "patterns": ["bronze membership"],
+    "responses": ["You can only use parking freely \n You will have 10% discount on extra sport classes \n You can use gym from 4:00 P.M until 8.00 P.M \n Total cost for Gold membership is: 400$ annually"]
+  },
+  {"tag": "sportClasses",
+    "patterns": ["what sport classes do you have?","what sport classes are available"],
+    "responses": ["We have different sport classes including:\n Basketball,\nVolleyball,\nYoga\nTennis\n if you want to get information about each write the class name which you are interested in"]
+  },
+  {"tag": "basketball",
+    "patterns": ["basketball"],
+    "responses": ["basketball classes are on saturday and wednesday on 3:00 P.M \n until 4:30 P.M with Ms.Smith"]
+  },
+    {"tag": "volleyball",
+    "patterns": ["volleyball"],
+    "responses": ["volley classes are on sunday and tuesday on 9:00 A.M \n until 10:30 A.M with Mr.Amini"]
+  },
+    {"tag": "yoga",
+    "patterns": ["yoga"],
+    "responses": ["yoga classes are on monday and friday on 5:30 P.M \n until 7:00 P.M with Ms.Jane"]
+  },
+    {"tag": "tennis",
+    "patterns": ["tennis"],
+    "responses": ["tennis classes are on thursday and saturday on 2:00 P.M \n until 3:30 P.M with Mr.Bakhshi"]
+  },
+  {"tag": "moreInformation",
+    "patterns": ["how can I get more information", "how can I see your complex facilities"],
+    "responses": ["You can visit our website:www.Sports Complex.com"]
+  },
+  {"tag": "telephone",
+    "patterns": ["how can I contact to your complex", "what are your phone numbers", "what is your phone number"],
+    "responses": ["If you want to contact to secretary type \n 'secretary number' and if you want to contact to \n management department type 'management department \n number'"]
+  },
+  {"tag": "secretaryNumber",
+    "patterns": ["secretary number"],
+    "responses": ["Secretary number is: 02184356921"]
+  },
+  {"tag": "managementNumber",
+    "patterns": ["management department number"],
+    "responses": ["Management department number is: 0218447922"]
+  },
+  {"tag": "location",
+    "patterns": ["where is your location", "where is your complex", "where is you sports complex"],
+    "responses": ["We are in: Pounak,\n Sports complex, Tehran, Iran"]
+  },
+  {"tag": "registerRequirements",
+    "patterns": ["what do we need for registration", "what are the requirements for registration"],
+    "responses": ["You should have your ID-card and a 3x4 photo for \n registration process"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
